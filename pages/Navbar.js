@@ -5,19 +5,19 @@ import styles from '../styles/Home.module.scss';
 const Navbar = () => {
   return (
     <nav className={`${styles.nav} ${styles.fadeIn} ${styles.smoothEdges}`}>
-      <ul>
-        <li>
-          <Link className={`${styles.link} ${styles.baw}`} href="../">
+      <ul className={styles.navList}>
+        <li className={styles.navItem}>
+          <Link className={`${styles.link} ${styles.baw} ${styles.navLink}`} href="../">
             <button>Home</button>
           </Link>
         </li>
-        <li>
-          <Link className={`${styles.link} ${styles.baw}`} href="../About">
+        <li className={styles.navItem}>
+          <Link className={`${styles.link} ${styles.baw} ${styles.navLink}`} href="../About">
         <button>About</button>
           </Link>
         </li>
-        <li>
-          <Link className={`${styles.link} ${styles.baw}`} href="../Contact">
+        <li className={styles.navItem}>
+          <Link className={`${styles.link} ${styles.baw} ${styles.navLink}`} href="../Contact">
             <button>Contact</button>
           </Link>
         </li>
