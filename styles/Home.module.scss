@@ -1,0 +1,154 @@
+.bggray {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+
+
+.mxauto {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64rem;
+  padding: 2rem;
+}
+
+
+
+.textxl {
+  font-size: 9rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+
+.textlg {
+  font-size: 1.125rem;
+  color: #4b5563;
+  line-height: 1.75rem;
+}
+
+
+/* Nav */
+
+.nav {
+  background-color: #333;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 4xl;
+    margin: 0 auto;
+    padding: 1rem;
+    li {
+      .link {
+        color: black;
+        text-decoration: none;
+        &:hover {
+          color: grey;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.smoothEdges {
+  border-radius: 8px;
+}
+
+.baw {
+  background-color: antiquewhite;
+  border-radius: 2px;
+}
+
+
+/* Animations */ 
+
+.fadeIn {
+  animation: fadeInAnimation 1s ease-in forwards;
+  opacity: 0;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.slideIn {
+  animation: slideInAnimation 1s ease-in forwards;
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+@keyframes slideInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/* Form Styling Contact */
+
+.form {
+  margin-top: 1.5rem;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.buttonPrimary:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
