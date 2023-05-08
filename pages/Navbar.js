@@ -21,6 +21,11 @@ const Navbar = () => {
             <button>Contact</button>
           </Link>
         </li>
+        <li className={styles.navItem}>
+          <Link className={`${styles.link} ${styles.baw} ${styles.navLink}`} href="../Blog">
+            <button>Blog</button>
+          </Link>
+        </li>
       </ul>
     </nav>
   )
