@@ -7,22 +7,22 @@ const Navbar = () => {
     <nav className={`${styles.nav} ${styles.fadeIn} ${styles.smoothEdges}`}>
       <ul className={styles.navList}>
         <li className={styles.navItem}>
-          <Link className={`${styles.link} ${styles.baw} ${styles.navLink}`} href="../">
+          <Link className={`${styles.link} ${styles.navLink}`} href="../">
             <button>Home</button>
           </Link>
         </li>
         <li className={styles.navItem}>
-          <Link className={`${styles.link} ${styles.baw} ${styles.navLink}`} href="../About">
+          <Link className={`${styles.link} ${styles.navLink}`} href="../About">
         <button>About</button>
           </Link>
         </li>
         <li className={styles.navItem}>
-          <Link className={`${styles.link} ${styles.baw} ${styles.navLink}`} href="../Contact">
+          <Link className={`${styles.link} ${styles.navLink}`} href="../Contact">
             <button>Contact</button>
           </Link>
         </li>
         <li className={styles.navItem}>
-          <Link className={`${styles.link} ${styles.baw} ${styles.navLink}`} href="../Blog">
+          <Link className={`${styles.link} ${styles.navLink}`} href="../Blog">
             <button>Blog</button>
           </Link>
         </li>
