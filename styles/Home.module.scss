@@ -75,7 +75,7 @@
   border-radius: 8px;
 
   @media (max-width: 768px) {
-    flex-direction: grid;
+    flex-direction: column;
     padding: 1rem 0;
   }
 }
@@ -85,6 +85,11 @@
   justify-content: center;
   list-style: none;
   padding: 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
 }
 
 .navItem {
