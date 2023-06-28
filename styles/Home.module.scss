@@ -16,7 +16,7 @@
   @media (max-width: 768px) {
     position: relative;
     height: 250px;
-    margin-top: 15rem;
+    margin-top: 10rem;
     z-index: 0;
   }
 }
@@ -81,7 +81,7 @@
 }
 
 .navList {
-  display: flex;
+  display: grid;
   justify-content: center;
   list-style: none;
   padding: 0;
@@ -91,7 +91,7 @@
   margin-right: 1rem;
 }
 
-.navLink {
+/*.navLink {
   text-decoration: none;
   color: #333;
   font-weight: bold;
@@ -100,7 +100,7 @@
 
 .navLink:hover {
   color: #007bff;
-}
+}*/
 
 
 .nav {
@@ -257,6 +257,14 @@
     font-size: 1.2rem;
     line-height: 1.5;
   }
+
+  .img {
+    @media (max-width: 768px) {
+      max-width: 100%;
+      height: auto;;
+    }
+  }
+
 }
 
 /* Mobile responsiveness */
