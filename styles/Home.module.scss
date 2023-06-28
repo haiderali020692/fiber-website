@@ -242,7 +242,7 @@
   margin-bottom: 1rem;
 
   @media (max-width: 768px) {
-    max-width: 100%;
+    max-width: auto;
     height: auto;
   }
   
@@ -252,7 +252,7 @@
     margin-bottom: 0.5rem;
 
     @media (max-width: 768px) {
-      max-width: 100%;
+      max-width: auto;
       height: auto;
     }
   }
@@ -263,7 +263,7 @@
     margin-bottom: 1rem;
 
     @media (max-width: 768px) {
-      max-width: 100%;
+      max-width: auto;
       height: auto;
     }
   }
@@ -273,14 +273,14 @@
     line-height: 1.5;
     
     @media (max-width: 768px) {
-      max-width: 100%;
+      max-width: auto;
       height: auto;
     }
   }
 
   .img {
     @media (max-width: 768px) {
-      max-width: 100%;
+      max-width: auto;
       height: auto;
     }
   }
