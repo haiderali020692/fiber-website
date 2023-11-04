@@ -17,6 +17,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={styles.navItem}>
+          <Link className={`${styles.link} ${styles.navLink}`} href="../Services">
+            <button>Services</button>
+          </Link>
+        </li>
+        <li className={styles.navItem}>
           <Link className={`${styles.link} ${styles.navLink}`} href="../Contact">
             <button>Contact</button>
           </Link>
