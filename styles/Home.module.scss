@@ -38,7 +38,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 64rem;
-  padding: 2rem;
+  padding: 6rem;
 }
 
 
@@ -46,7 +46,7 @@
 .textxl {
   font-size: 9rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   color: #f8f8f8;
 
   @media (max-width: 768px) {
@@ -63,7 +63,9 @@
   font-size: 1.125rem;
   color: #4b5563;
   line-height: 1.75rem;
-  margin-top: 100px;
+  margin-top: 140px;
+  border: 6px solid #ccc; /* Add a border */
+  padding:5px; /* Add padding */
 }
 
 
