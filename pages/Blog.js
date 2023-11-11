@@ -1,5 +1,5 @@
 import Navbar from './Navbar';
-import styles from '../styles/Home.module.scss';
+import styles from '../styles/Blog.module.scss';
 import Footer from './Footer';
 
 
@@ -33,7 +33,7 @@ const Blog = () => {
         <h1 className="text-3xl font-bold mb-4">Blog</h1>
         {posts.map(post => (
           <div key={post.id} className={styles.post}>
-            <img src={post.image} alt={post.title} className={styles.img} height={500} />
+            <img src={post.image} alt={post.title} className={styles.img} height={600} />
             <h2 className={styles.title}>{post.title}</h2>
             <p className={styles.author}>{post.date} | By {post.author}</p>
             <p className={styles.content}>{post.excerpt}</p>
