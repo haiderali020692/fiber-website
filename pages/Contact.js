@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import styles from '../styles/Contact.module.scss';
 
 const Contact = () => {
@@ -39,6 +40,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 };

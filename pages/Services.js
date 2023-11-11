@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import styles from '../styles/Services.module.scss';
 import Link from 'next/link';
+import Footer from './Footer';
 
 const Services = () => {
   return (
@@ -31,6 +32,7 @@ const Services = () => {
           <Link href="../WallMounting">Read More</Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

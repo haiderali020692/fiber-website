@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import styles from '../styles/Home.module.scss';
+import Footer from './Footer';
 
 const About = () => {
   return (
@@ -30,6 +31,7 @@ and reliable internet speed.
 security camera and alarm system at your home and office.
         </p>
       </div>
+      <Footer />
     </div>
   );
 };
