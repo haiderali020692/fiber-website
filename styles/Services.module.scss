@@ -2,6 +2,9 @@
 
 .servicesPage {
     text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 
     @media (max-width: 768px) {
         position: relative;
@@ -27,6 +30,7 @@
         margin: 10px;
         max-width: 500px;
         text-align: center;
+        border-radius: 10px;
   
         h2 {
           font-size: 1.5rem;
