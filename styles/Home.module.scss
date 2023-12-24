@@ -16,7 +16,7 @@
   @media (max-width: 768px) {
     position: relative;
     height: 150px;
-    margin-top: 10rem;
+    margin-top: 15rem;
     z-index: 0;
   }
 }
@@ -66,6 +66,15 @@
   margin-top: 140px;
   border: 6px solid #ccc; /* Add a border */
   padding:5px; /* Add padding */
+
+  @media (max-width: 768px) {
+    position: relative;
+    font-size: xx-small;
+    height: 280px;
+    width: 100px;
+    margin-top: 40rem;
+    z-index: 0;
+  }
 }
 
 
