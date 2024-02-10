@@ -1,0 +1,46 @@
+/* Responsive.module.css */
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 20px;
+    margin-left: 300px;
+  }
+  
+  .mySwiper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swipItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .imgBox {
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+  }
+  
+  .imgBox img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .detail {
+    text-align: center;
+  }
+  
+  .detail h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .detail p {
+    font-size: 1rem;
+  }
+  

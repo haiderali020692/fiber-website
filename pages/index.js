@@ -1,15 +1,35 @@
 // pages/index.js
 import Navbar from './Navbar'
 import styles from '../styles/Home.module.scss';
-import Image from 'next/image';
+import ResponsiveCarousel from "./Carousel"
 
 
 
 const Index = () => {
+
+  const carouselItems = [
+    {
+      id: 1,
+      imageURL: '/images/home-image.jpg',
+      caption: 'Caption 1',
+    },
+    {
+      id: 2,
+      imageURL: '/images/cctv.jpg',
+      caption: 'Caption 2',
+    },
+    {
+      id: 3,
+      imageURL: '/images/sec.jpg',
+      caption: 'Caption 3'
+    }
+  ]
   return (
     <div className={styles.bggray}>
       <Navbar />
       <div className={`${styles.mxauto} ${styles.fadeIn} ${styles.slideIn} ${styles.landingPage}`}>
+      <div className={styles.back}><ResponsiveCarousel
+      /></div>
         <h1 className={styles.textxl}>Welcome to Fiber Optics Australia</h1>
         <p className={styles.textlg}>
           We provide high-quality fiber optic cables and connectors in Australia. Our products are
@@ -17,12 +37,6 @@ const Index = () => {
           and cable television industries.
         </p>
       </div>
-      <Image
-        className={styles.imageWrapper}
-        src="/images/home-image.jpg"
-        alt="Home Image"
-        fill={true}
-      />
     </div>
   )
 }
