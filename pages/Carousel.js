@@ -1,10 +1,13 @@
     import { Carousel } from "react-responsive-carousel";
-    import { items } from "../public/Items.json";
+    import data from "../public/items.json";
     import "react-responsive-carousel/lib/styles/carousel.min.css";
     import styles from "../styles/Responsive.module.css";
+
     
+
     export default function ResponsiveCarousel() {
-      const { responsive } = items;
+      
+      const { responsive } = data.items;
       return (
         <div className={styles.container}>
           <Carousel
