@@ -37,7 +37,7 @@ const Blog = () => {
             <h2 className={styles.title}>{post.title}</h2>
             <p className={styles.author}>{post.date} | By {post.author}</p>
             <p className={styles.content}>{post.excerpt}</p>
-            <a href={`/blog/${post.slug}`} className="text-blue-500 hover:underline">Read more</a>
+            <a href={`../posts/${post.slug}`} className="text-blue-500 hover:underline">Read more</a>
           </div>
         ))}
       </div>
@@ -47,3 +47,5 @@ const Blog = () => {
 };
 
 export default Blog;
+
+

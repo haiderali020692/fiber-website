@@ -20,7 +20,7 @@ const Services = () => {
         {responsive.map((item) => (
           <li key={item.id}>
             <img src={item.imageUrl} alt="slides" width="1000" height="600"/>
-            <Link href={`/products/${item.slug}`}>
+            <Link href={`../${item.title}`}>
             <h2>{item.title}</h2>
             </Link>
             <p>{item.text}</p>

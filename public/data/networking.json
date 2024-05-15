@@ -1,0 +1,37 @@
+{
+  "items": {
+    "networking": [
+      {
+        "id": 1,
+        "title": "CCTV",
+        "slug": "cctv",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+        "imageUrl": "/images/cctv.jpg"
+      },
+      {
+        "id": 2,
+        "slug": "security",
+        "title": "Security",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+        "imageUrl": "/images/sec.jpg"
+      },
+      {
+        "id": 3,
+        "slug": "wall-mount",
+        "title": "Wall Mount",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+        "imageUrl": "/images/wall.jpg"
+      },
+      {
+          "id": 4,
+          "slug": "networking",
+          "title": "Networking",
+          "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+          "imageUrl": "/images/network.jpg"
+      }
+      
+      
+    ]
+  }
+}
+

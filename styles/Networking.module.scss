@@ -1,42 +1,41 @@
-/* styles/Blog.module.scss */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.bggray {
-  background-color: #E2725B;
+$bg-gray: #E2725B;
+
+.bg-gray {
+  background-color: $bg-gray;
 }
 
-
-.minhscreen {
+.min-h-screen {
   min-height: 100vh;
 }
 
-.maxw4xl {
+.max-w-4xl {
   max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-.p8 {
+.p-8 {
   padding: 2rem;
 }
 
-.text3xl {
+.text-3xl {
   font-size: 1.875rem;
   color: white;
 }
 
-.fontbold {
+.font-bold {
   font-weight: 700;
 }
 
-.mb4 {
+.mb-4 {
   margin-bottom: 1rem;
   color: white;
 }
 
 .post {
-  background-color: #E2725B;
+  background-color: $bg-gray;
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
@@ -57,4 +56,3 @@
   font-weight: 700;
   color: white;
 }
-

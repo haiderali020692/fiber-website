@@ -1,14 +1,36 @@
 import React from 'react';
-import styles from '../styles/ServicePage.module.scss';
+import data from '../public/data/networking.json';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import Link from 'next/link';
+import styles from '../styles/Networking.module.scss'; // Import SCSS styles
 
-const Networking = () => {
+const Services = () => {
+  const { networking } = data.items;
+
   return (
-    <div className={styles.servicePage}>
-      <h1>Networking Services</h1>
-      <p>We offer professional networking solutions for your home or business.</p>
-      {/* Add more content here */}
+    <div className={styles.servicesPage}>
+      <Navbar />  
+      <h1 className={styles.title}>Networking products</h1>
+      <div className={styles.servicesList}>
+        <div>
+          <ol className={styles.serviceCategory}>
+            {networking.map((item) => (
+              <li key={item.id} className={styles.post}>
+                <img src={item.imageUrl} alt="slides" className={styles.img} />
+                <Link href={`/products/${item.slug}`}>
+                  <h2 className={styles.title}>{item.title}</h2>
+                </Link>
+                <p className={styles.mb4}>{item.text}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };
 
-export default Networking;
+export default Services;
+
