@@ -1,46 +1,85 @@
-/* Responsive.module.css */
-
+/* Ensure the container is centered and has padding for spacing */
 .container {
-    max-width: 100%;
-    margin: auto;
-    padding: 0 20px;
-    margin-left: 300px;
+  width: 120%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Flexbox centering for the swiper */
+.mySwiper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Hide any overflow */
+  margin-right: 200px;
+  border-radius: 10px;
+}
+
+.img {
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/* Flexbox centering for each swiper item */
+.swipItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative; /* Position relative to use absolute positioning for the background */
+  height: 100vh; /* Full height of the viewport */
+  height: 800px; /* Adjust height as needed */
+  width: 1000px; /* Adjust max-width as needed */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Full background image for each swiper item */
+.swipItem::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* Place the background behind the content */
+}
+
+/* Center text and style headings and paragraphs */
+.detail {
+  text-align: center;
+  z-index: 1; /* Ensure text appears above the background image */
+  color: black; /* Optional: change text color for visibility */
+}
+
+.detail h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.detail p {
+  font-size: 1rem;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
   }
-  
-  .mySwiper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .swipItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
-  
-  .imgBox {
-    width: 100%;
-    max-width: 500px; /* Adjust as needed */
-  }
-  
-  .imgBox img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .detail {
-    text-align: center;
-  }
-  
+
   .detail h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
   }
-  
+
   .detail p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
+}
+
+
   

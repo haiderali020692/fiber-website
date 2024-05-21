@@ -11,7 +11,7 @@
       return (
         <div className={styles.container}>
           <Carousel
-            showArrows={true}
+            showArrows={false}
             showIndicators={true}
             infiniteLoop={true}
             dynamicHeight={false}
