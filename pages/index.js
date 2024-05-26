@@ -2,6 +2,7 @@
 import Navbar from './Navbar'
 import styles from '../styles/Home.module.scss';
 import ResponsiveCarousel from "./Carousel"
+import Footer from './Footer';
 
 
 
@@ -37,6 +38,7 @@ const Index = () => {
           and cable television industries.
         </p>
       </div>
+      <Footer />
     </div>
   )
 }

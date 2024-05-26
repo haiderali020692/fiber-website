@@ -11,8 +11,8 @@
       return (
         <div className={styles.container}>
           <Carousel
-            showArrows={false}
-            showIndicators={true}
+            showArrows={true}
+            showIndicators={false}
             infiniteLoop={true}
             dynamicHeight={false}
             className={styles.mySwiper}
