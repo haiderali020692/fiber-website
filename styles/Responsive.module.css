@@ -76,6 +76,18 @@
     padding: 0 10px;
   }
 
+  .mySwiper {
+    width: 400px;
+    align-items: center;
+  }
+
+  .swipItem {
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+
   .detail h2 {
     font-size: 1.2rem;
   }

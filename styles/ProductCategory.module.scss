@@ -24,4 +24,17 @@
   }
   
   /* You can add more styles as needed */
-  
+
+/* Media Queries for Mobile Phones */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 100%; /* Set max-width to 100% for full width on mobile */
+    padding: 1rem; /* Reduce padding on mobile */
+  }
+
+  .productList {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust minimum width for product items on mobile */
+  }
+
+  /* Add more styles for smaller screens as needed */
+}

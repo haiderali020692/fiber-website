@@ -1,52 +1,54 @@
 /* styles/Services.module.scss */
 
 .servicesPage {
-    text-align: center;
+  text-align: center;
+  background-color: #E2725B;
+  color: white;
+  border-radius: 10px;
+
+  @media (max-width: 768px) {
+      position: relative;
+      height: 250px;
+      margin-top: 10rem;
+      z-index: 0;
+    }
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .servicesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #E2725B;
-    color: white;
     border-radius: 10px;
 
-    @media (max-width: 768px) {
-        position: relative;
-        height: 250px;
-        margin-top: 10rem;
-        z-index: 0;
-      }
-  
-    h1 {
-      font-size: 2rem;
-      margin-top: 100px;
-      margin-bottom: 20px;
-    }
-  
-    .servicesList {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-  
-      .serviceCategory {
-        display: grid;
-        grid-column: auto;
-        border: 5px solid #ddd;
-        padding: 20px;
-        margin: 10px;
-        max-width: 1000px;
-        text-align: center;
-        border-radius: 10px;
-  
-        h2 {
-          font-size: 1.5rem;
-          margin-bottom: 10px;
-        }
-  
-        p {
-          font-size: 1rem;
-        }
+    .serviceCategory {
+      display: grid;
+      grid-column: auto;
+      padding: 20px;
+      margin: 10px;
+      /* Remove max-width for mobile */
+      text-align: center;
+      border-radius: 10px;
 
-        img {
-          border-radius: 10px;
-        }
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      img {
+        width: 100%; /* Set image width to 100% on mobile */
+        object-fit: cover; /* Ensure image fills container while maintaining aspect ratio */
+        border-radius: 10px;
       }
     }
   }
-  
+}

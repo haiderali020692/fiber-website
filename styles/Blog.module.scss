@@ -1,11 +1,8 @@
-/* styles/Blog.module.scss */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .bggray {
   background-color: #E2725B;
 }
-
 
 .minhscreen {
   min-height: 100vh;
@@ -41,8 +38,8 @@
   overflow: hidden;
   margin-bottom: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: auto;
-  padding: 2rem;
+  width: 100%; /* Make the post full width on mobile */
+  padding: 1rem; /* Reduce padding on mobile */
   color: white;
 }
 
@@ -53,8 +50,20 @@
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.25rem; /* Reduce title size on mobile */
   font-weight: 700;
   color: white;
 }
 
+/* Media Queries for Mobile Phones */
+@media only screen and (max-width: 768px) {
+  .maxw4xl {
+    max-width: 100%; /* Set max-width to 100% for full width on mobile */
+  }
+
+  .p8 {
+    padding: 1rem; /* Reduce padding on mobile */
+  }
+
+  /* Add more styles for smaller screens as needed */
+}
