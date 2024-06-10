@@ -33,7 +33,7 @@
 
 
 .bggray {
-  background-color: #E2725B;
+  background-color: #36454F;
   min-height: 100vh;
   border-radius: 10px;
 }
@@ -126,7 +126,10 @@
 
 
 .nav {
-  background-color: #990033;
+  background-color: #4F4036;
+  width: 100%;
+  align-self: center;
+
   ul {
     display: flex;
     justify-content: space-between;

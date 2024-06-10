@@ -2,7 +2,7 @@
 
 .servicesPage {
   text-align: center;
-  background-color: #E2725B;
+  background-color: #36454F;
   color: white;
   border-radius: 10px;
 
@@ -23,8 +23,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #E2725B;
+    background-color: #e2aa5b;
     border-radius: 10px;
+    box-sizing: border-box;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
 
     .serviceCategory {
       display: grid;

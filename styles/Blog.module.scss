@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .bggray {
-  background-color: #E2725B;
+  background-color: #36454F;
 }
 
 .minhscreen {
@@ -12,6 +12,7 @@
   max-width: 64rem;
   margin-left: auto;
   margin-right: auto;
+  padding: 5px;
 }
 
 .p8 {
@@ -21,6 +22,7 @@
 .text3xl {
   font-size: 1.875rem;
   color: white;
+  padding: 5px;
 }
 
 .fontbold {
@@ -30,23 +32,27 @@
 .mb4 {
   margin-bottom: 1rem;
   color: white;
+  padding: 5px;
 }
 
 .post {
-  background-color: #E2725B;
+  background-color: #36454F;
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%; /* Make the post full width on mobile */
-  padding: 1rem; /* Reduce padding on mobile */
   color: white;
+  padding: 1rem;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .img {
   width: 100%;
-  object-fit: cover;
-  border-radius: white;
+  border-radius: 8px;
+  align-self: center;
+  justify-content: center;
 }
 
 .title {
