@@ -73,19 +73,25 @@
 /* Add media queries for responsiveness */
 @media (max-width: 768px) {
   .container {
-    padding: 0 10px;
+    width: 300px;
+    background-color: white;
   }
 
   .mySwiper {
-    width: 400px;
+    width: 100%;
     align-items: center;
+    margin-right: 50px;
   }
 
   .swipItem {
-    width: 300px;
+    width: 200px;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
+  }
+
+  .img {
+    width: 200%;
   }
 
   .detail h2 {

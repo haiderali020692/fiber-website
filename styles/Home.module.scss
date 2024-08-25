@@ -45,6 +45,11 @@
   margin-right: auto;
   max-width: 64rem;
   padding: 6rem;
+
+  @media (max-width: 786px) {
+    padding: 3rem;
+  }
+  
 }
 
 
@@ -62,6 +67,10 @@
     font-size: 1.5rem;
     margin-top: 9rem;
     z-index: 1;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 
   }
 }
@@ -82,8 +91,9 @@
     position: relative;
     font-size: xx-small;
     height: 280px;
-    width: 100px;
-    margin-top: 40rem;
+    width: 280px;
+    margin-top: 9rem;
+    margin-right: 5rem;
     z-index: 0;
   }
 }
