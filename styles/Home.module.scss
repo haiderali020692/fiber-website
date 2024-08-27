@@ -108,6 +108,11 @@ and (orientation: landscape) {
   font-size: 6rem; /* Larger font for landscape mode */
   margin-bottom: 3rem;
   padding: 9px;
+  margin-top: 9rem;
+  z-index: 1;
+  width: 255px;
+  justify-content: center;
+  align-items: center;
 }
 }
 }
