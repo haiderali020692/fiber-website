@@ -73,6 +73,20 @@
     padding: 1rem;
 
   }
+
+  @media only screen  
+    and (width: 414px) 
+    and (height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) {
+    font-size: 1.5rem;
+    margin-top: 9rem;
+    z-index: 1;
+    width: 255px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-left: 40px;
+  }
 }
 
 

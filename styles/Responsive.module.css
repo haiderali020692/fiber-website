@@ -103,4 +103,43 @@
 }
 
 
+@media only screen 
+    and (width: 414px) 
+    and (height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) {
+  .container {
+    width: 285px;
+    background-color: white;
+    margin-left: 40px;
+  }
+
+  .mySwiper {
+    width: 100%;
+    align-items: center;
+  }
+
+  .swipItem {
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+  }
+
+  .img {
+    width: 200%;
+  }
+
+  .detail h2 {
+    font-size: 1.2rem;
+  }
+
+  .detail p {
+    font-size: 0.9rem;
+  }
+}
+
+
+  
+
+
   
