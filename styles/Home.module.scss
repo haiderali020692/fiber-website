@@ -87,6 +87,11 @@ and (orientation: portrait) {
   font-size: 4rem; /* Scale down for better readability on iPhone 11 */
   margin-bottom: 2rem; /* Adjust margin for smaller screen */
   padding: 8px; /* Slightly smaller padding */
+  margin-top: 9rem;
+  z-index: 1;
+  width: 255px;
+  justify-content: center;
+  align-items: center;
 }
 }
 
