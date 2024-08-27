@@ -74,19 +74,37 @@
 
   }
 
-  @media only screen  
-    and (width: 414px) 
-    and (height: 896px) 
-    and (-webkit-device-pixel-ratio: 2) {
-    font-size: 1.5rem;
-    margin-top: 9rem;
-    z-index: 1;
-    width: 255px;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    margin-left: 40px;
-  }
+  /* Media query for iPhone 11 in portrait mode */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 414px) 
+and (min-device-height: 896px) 
+and (max-device-height: 896px) 
+and (-webkit-device-pixel-ratio: 2) 
+and (orientation: portrait) {
+
+.textxl {
+  font-size: 4rem; /* Scale down for better readability on iPhone 11 */
+  margin-bottom: 2rem; /* Adjust margin for smaller screen */
+  padding: 8px; /* Slightly smaller padding */
+}
+}
+
+/* Media query for iPhone 11 in landscape mode */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 414px) 
+and (min-device-height: 896px) 
+and (max-device-height: 896px) 
+and (-webkit-device-pixel-ratio: 2) 
+and (orientation: landscape) {
+
+.textxl {
+  font-size: 6rem; /* Larger font for landscape mode */
+  margin-bottom: 3rem;
+  padding: 9px;
+}
+}
 }
 
 
