@@ -4,6 +4,7 @@
 
   @media (max-width: 768px) {
     padding: 0 0.5rem;
+    width: 100px;
   }
 }
 
@@ -111,7 +112,6 @@ and (-webkit-device-pixel-ratio: 2)
 and (orientation: landscape) {
 
 .textxl {
-  font-size: 50px; /* Larger font for landscape mode */
   margin-bottom: 3rem;
   padding: 9px;
   margin-top: 9rem;
