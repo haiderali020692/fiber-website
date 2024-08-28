@@ -46,7 +46,13 @@
   max-width: 64rem;
   padding: 6rem;
 
-  @media (max-width: 786px) {
+  @media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 414px) 
+and (min-device-height: 896px) 
+and (max-device-height: 896px) 
+and (-webkit-device-pixel-ratio: 2) 
+and (orientation: landscape) {
     padding: 1rem;
   }
   
@@ -84,7 +90,7 @@ and (-webkit-device-pixel-ratio: 2)
 and (orientation: portrait) {
 
 .textxl {
-  font-size: 4rem; /* Scale down for better readability on iPhone 11 */
+  font-size: 2rem; /* Scale down for better readability on iPhone 11 */
   margin-bottom: 2rem; /* Adjust margin for smaller screen */
   padding: 8px; /* Slightly smaller padding */
   margin-top: 9rem;
@@ -129,7 +135,13 @@ and (orientation: landscape) {
   border-radius: 10px;
   background-color: #e2aa5b;
 
-  @media (max-width: 768px) {
+  @media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 414px) 
+and (min-device-height: 896px) 
+and (max-device-height: 896px) 
+and (-webkit-device-pixel-ratio: 2) 
+and (orientation: landscape) {
     position: relative;
     font-size: xx-small;
     height: 280px;
