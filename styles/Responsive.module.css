@@ -70,7 +70,7 @@
   color: white;
 }
 
-/* Add media queries for responsiveness 
+/* Add media queries for responsiveness */
 @media (max-width: 768px) {
   .container {
     width: 285px;
@@ -101,45 +101,10 @@
     font-size: 0.9rem;
   }
 }
-*/
 
-@media only screen 
-and (min-device-width: 414px) 
-and (max-device-width: 414px) 
-and (min-device-height: 896px) 
-and (max-device-height: 896px) 
-and (-webkit-device-pixel-ratio: 2) 
-and (orientation: landscape) {
-  .container {
-    width: 585px;
-    background-color: white;
-    margin-left: 40px;
-  }
 
-  .mySwiper {
-    width: 100%;
-    align-items: center;
-  }
 
-  .swipItem {
-    width: 500px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 40px;
-  }
 
-  .img {
-    width: 200%;
-  }
-
-  .detail h2 {
-    font-size: 1.2rem;
-  }
-
-  .detail p {
-    font-size: 0.9rem;
-  }
-}
 
 
   
