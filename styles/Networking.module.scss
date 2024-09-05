@@ -56,6 +56,11 @@ $bg-gray: #E2725B;
   font-weight: 900;
   color: black;
   margin-bottom: 60px;
+
+  @media (max-width: 786px) {
+  font-size: 1.5rem;
+}
+
 }
 
 .servicesList {
