@@ -18,7 +18,7 @@ const Services = () => {
             {networking.map((item) => (
               <li key={item.id} className={styles.post}>
                 <img src={item.imageUrl} alt="slides" className={styles.img} />
-                <Link href={`/products/network1`}>
+                <Link href={`/products/${item.route}`}>
                   <h2 className={styles.title}>{item.title}</h2>
                 </Link>
                 <p className={styles.mb4}>{item.text}</p>

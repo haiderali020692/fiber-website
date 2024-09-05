@@ -6,28 +6,32 @@
         "title": "Networking1",
         "slug": "networking1",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-        "imageUrl": "/images/cctv.jpg"
+        "imageUrl": "/images/cctv.jpg",
+        "route": "network1"
       },
       {
         "id": 2,
         "slug": "networking2",
         "title": "Networking2",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-        "imageUrl": "/images/sec.jpg"
+        "imageUrl": "/images/sec.jpg",
+        "route": "network2"
       },
       {
         "id": 3,
         "slug": "networking3",
         "title": "Networking3",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-        "imageUrl": "/images/wall.jpg"
+        "imageUrl": "/images/wall.jpg",
+        "route": "network3"
       },
       {
           "id": 4,
           "slug": "networking4",
           "title": "Networking4",
           "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-          "imageUrl": "/images/network.jpg"
+          "imageUrl": "/images/network.jpg",
+          "route": "network4"
       }
       
       
