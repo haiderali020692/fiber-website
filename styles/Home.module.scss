@@ -10,6 +10,11 @@
 .back {
   position: relative;
   z-index: 2;
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    width: 600px;
+  }
+
 }
 
 .imageWrapper {
@@ -18,17 +23,29 @@
   margin-top: 9rem;
   z-index: 1;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     position: relative;
     height: 150px;
     margin-top: 15rem;
     z-index: 0;
   }
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    width: 300px;
+  }
+
+ 
 }
 
 .imageWrapper .img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    width: 300px;
+  }
+  
+  
 }
 
 
@@ -36,6 +53,11 @@
   background-color: #36454F;
   min-height: 100vh;
   border-radius: 10px;
+
+  @media (max-width: 600px) {
+    height: 100%;
+  }
+
 }
 
 
@@ -50,6 +72,10 @@
     padding: 2.3rem;
   }
   
+  @media (min-width: 601px) and (max-width: 1024px) {
+    justify-content: center;
+    width: min-content;
+  }
 }
 
 
@@ -63,7 +89,7 @@
   border-radius: 10px;
   padding: 10px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     font-size: 1.5rem;
     margin-top: 9rem;
     z-index: 1;
@@ -72,6 +98,18 @@
     align-items: center;
     padding: 1rem;
 
+  }
+
+  
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    font-size: 1.5rem;
+    margin-top: 9rem;
+    z-index: 1;
+    width: 565px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
   }
   
 }
@@ -88,11 +126,20 @@
   border-radius: 10px;
   background-color: #e2aa5b;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     position: relative;
     font-size: xx-small;
     height: 280px;
     width: 265px;
+    margin-top: 9rem;
+    z-index: 0;
+  }
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    position: relative;
+    font-size: xx-small;
+    height: 280px;
+    width: 565px;
     margin-top: 9rem;
     z-index: 0;
   }

@@ -71,7 +71,7 @@
 }
 
 /* Add media queries for responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .container {
     width: 285px;
     background-color: white;
@@ -100,6 +100,44 @@
   .detail p {
     font-size: 0.9rem;
   }
+
+  
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+  .container {
+    width: 575px;
+    background-color: white;
+    align-items: center;
+  }
+
+  .mySwiper {
+    width: 100%;
+    align-items: center;
+  }
+
+  .swipItem {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+  }
+
+  .imgBox {
+    width: 560px;
+    margin-left: 30px;
+  }
+
+  .detail h2 {
+    font-size: 0.9rem;
+  }
+
+  .detail p {
+    font-size: 0.9rem;
+  }
+
 }
 
 
