@@ -12,6 +12,10 @@ const Services = () => {
     <div className={styles.servicesPage}>
       <Navbar />  
       <h1 className={styles.title}>Networking Products</h1>
+      <p className={styles.mb4}>We are committed to install high quality
+ethernet cables and access points to create
+secure and fast internet throughout the house
+or office.</p>
       <div className={styles.servicesList}>
         <div>
           <ol className={styles.serviceCategory}>

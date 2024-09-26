@@ -3,9 +3,9 @@
     "networking": [
       {
         "id": 1,
-        "title": "Networking1",
-        "slug": "networking1",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+        "title": "Access Points",
+        "slug": "accesspoints",
+        "text": "Have multiple routers or access points wired to get best internet speed throughout your home & office",
         "imageUrl": "/images/cctv.jpg",
         "route": "network1"
       },

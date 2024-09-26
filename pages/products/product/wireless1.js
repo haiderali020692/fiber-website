@@ -43,8 +43,8 @@ export async function getServerSideProps({ params }) {
 // pages/product.js
 
 import React from 'react';
-import styles from '../../styles/product.module.scss';
-import Link from 'next/link'
+import styles from '../../../styles/products.module.scss';
+
 
 const Product = () => {
   return (
@@ -52,22 +52,7 @@ const Product = () => {
       <div className={styles.productCard}>
         <img
           className={styles.productImage}
-          src="../../images/ap1.png"
-          alt="Product"
-        />
-        <div className={styles.productDetails}>
-          <h1 className={styles.productTitle}>EAP110 TP-Link Wireless-N Ceiling Mount Access Point </h1>
-          <p className={styles.productDescription}>
-            This product is top-notch! It has everything you need to improve your life.
-          </p>
-          <span className={styles.productPrice}>$99.99</span>
-          <Link href={`/products/product/wireless1`}><button className={styles.buyButton}>Check it out</button></Link>
-        </div>
-      </div>
-      <div className={styles.productCard}>
-        <img
-          className={styles.productImage}
-          src="../../images/network.jpg"s
+          src="../../../images/ap1.png"
           alt="Product"
         />
         <div className={styles.productDetails}>
