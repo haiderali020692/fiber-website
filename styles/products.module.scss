@@ -18,10 +18,6 @@ $button-color: #e74c3c;
   border-radius: 8px;
   gap: 10px;
 
-  @media (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 .productCard {
@@ -35,6 +31,12 @@ $button-color: #e74c3c;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-direction: row;
+
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
  
 
   .productImage {
