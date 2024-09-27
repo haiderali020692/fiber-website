@@ -17,6 +17,11 @@ $button-color: #e74c3c;
   padding: 2rem;
   border-radius: 8px;
   gap: 10px;
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .productCard {
