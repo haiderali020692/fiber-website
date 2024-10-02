@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import styles from '../styles/Services.module.scss';
 import Link from 'next/link';
 import Footer from './Footer';
-import Image from 'next/image';
 import data from "../public/categories.json";
 
 const Services = () => {

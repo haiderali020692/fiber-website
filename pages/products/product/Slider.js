@@ -1,5 +1,6 @@
 // components/Carousel.js
 import Slider from "react-slick";
+import Image from 'next/image';
 
 const Carousel = ({ images }) => {
   const settings = {
@@ -17,7 +18,7 @@ const Carousel = ({ images }) => {
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image.src} alt={image.alt} className="carousel-image" />
+            <Image src={image.src} alt={image.alt} className="carousel-image" />
           </div>
         ))}
       </Slider>
