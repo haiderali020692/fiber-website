@@ -67,7 +67,7 @@ const Product = () => {
   return (
     <div className={styles.productPage}>
       <div className={styles.productCard}>
-        <Carousel images={images} className={styles.productImage} />
+        <Carousel showThumbs={false} images={images} className={styles.productImage} />
         <div className={styles.productDetails}>
           <h1 className={styles.productTitle}>EAP110 TP-Link Wireless-N Ceiling Mount Access Point </h1>
           <p className={styles.productDescription}>
