@@ -13,3 +13,27 @@ body {
     color: blue;
     text-decoration: none;
   }
+
+  .carousel {
+    width: 500px;
+    max-width: 1200px;
+    margin: 10px 10px;
+  }
+  
+  .carousel-image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+  }
+
+
+  @media (max-width: 600px) {
+    .carousel-image {
+      width: 200px;
+      object-fit: scale-down;
+
+    }
+    .carousel {
+      width: 200px;
+    }
+  }
