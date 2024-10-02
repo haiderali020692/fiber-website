@@ -1,14 +1,7 @@
 // components/Carousel.js
 import Slider from "react-slick";
 
-
-const images = [
-  { src: "../../../images/ap1.png", alt: "Product 1" },
-  { src: "../../../images/sec.jpg", alt: "Product 2" },
-  { src: "../../../images/wall.jpg", alt: "Product 3" },
-];
-
-const Carousel = () => {
+const Carousel = ({ images }) => {
   const settings = {
     dots: true,
     infinite: true,

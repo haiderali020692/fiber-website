@@ -58,16 +58,11 @@ import Carousel from './Slider';
 
 const Product = () => {
 
-    const images = [
-        { src: "../../../images/ap1.png", alt: "Product 1" },
-        { src: "../../../images/sec.jpg", alt: "Product 2" },
-        { src: "../../../images/wall.jpg", alt: "Product 3" },
-      ];
 
   return (
     <div className={styles.productPage}>
       <div className={styles.productCard}>
-        <Carousel images={images} className={styles.productImage} />
+        <Carousel className={styles.productImage} />
         <div className={styles.productDetails}>
           <h1 className={styles.productTitle}>EAP110 TP-Link Wireless-N Ceiling Mount Access Point </h1>
           <p className={styles.productDescription}>
