@@ -38,23 +38,36 @@ export async function getServerSideProps({ params }) {
       products,
     },
   };
-}*/
+}
+
+<img
+          className={styles.productImage}
+          src="../../../images/ap1.png"
+          alt="Product"
+        />
+        
+        */
 
 // pages/product.js
 
 import React from 'react';
 import styles from '../../../styles/products.module.scss';
+import Carousel from './Slider';
+
 
 
 const Product = () => {
+
+    const images = [
+        { src: "../../../images/ap1.png", alt: "Product 1" },
+        { src: "../../../images/sec.jpg", alt: "Product 2" },
+        { src: "../../../images/wall.jpg", alt: "Product 3" },
+      ];
+
   return (
     <div className={styles.productPage}>
       <div className={styles.productCard}>
-        <img
-          className={styles.productImage}
-          src="../../../images/ap1.png"
-          alt="Product"
-        />
+        <Carousel images={images} className={styles.productImage} />
         <div className={styles.productDetails}>
           <h1 className={styles.productTitle}>EAP110 TP-Link Wireless-N Ceiling Mount Access Point </h1>
           <p className={styles.productDescription}>

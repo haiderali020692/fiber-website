@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3009",
+    "dev": "next dev -p 3011",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -19,10 +19,12 @@
     "react-dom": "18.2.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.23.0",
+    "react-slick": "^0.30.2",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "sass": "^1.61.0",
-    "sass-loader": "^13.2.2"
+    "sass-loader": "^13.2.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "eslint": "8.38.0",

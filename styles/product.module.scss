@@ -24,6 +24,11 @@ $button-color: #e74c3c;
     flex-direction: column;
   }
 
+  @media (min-width: 601px) and (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 .productCard {
@@ -39,6 +44,11 @@ $button-color: #e74c3c;
 
 
   @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: 601px) and (max-width: 1024px) {
     display: flex;
     flex-direction: column;
   }
