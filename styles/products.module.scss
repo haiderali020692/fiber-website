@@ -49,6 +49,10 @@ $button-color: #e74c3c;
     height: auto;
     border-radius: 8px;
     margin-bottom: 1.5rem;
+
+    @media (max-width: 600px) {
+      margin-bottom: 50px;
+    }
   }
 
   .productDetails {
@@ -58,9 +62,6 @@ $button-color: #e74c3c;
       color: $primary-color;
       font-weight: 600;
 
-      @media (max-width: 600px) {
-        margin: 50px;
-      }
     }
 
     .productDescription {
