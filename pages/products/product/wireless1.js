@@ -78,6 +78,8 @@ const Product = () => {
           autoplay: true,
           autoplaySpeed: 3000,
           showThumbs: false,
+          swipeToSlide: true,
+          adaptiveHeight: true,
         };
 
 
