@@ -52,17 +52,47 @@ export async function getServerSideProps({ params }) {
 
 import React from 'react';
 import styles from '../../../styles/products.module.scss';
-import Carousel from './Slider';
+import Slider from "react-slick";
+
+
+
 
 
 
 const Product = () => {
 
 
+    const images = [
+        { src: "../../../images/ap1.png", alt: "Product 1" },
+        { src: "../../../images/sec.jpg", alt: "Product 2" },
+        { src: "../../../images/wall.jpg", alt: "Product 3" },
+      ];
+      
+
+        const settings = {
+          dots: true,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          showThumbs: false,
+        };
+
+
   return (
     <div className={styles.productPage}>
       <div className={styles.productCard}>
-        <Carousel className={styles.productImage} />
+      <div className="carousel">
+      <Slider {...settings}>
+        {images.map((image, index) => (
+          <div key={index}>
+            <img src={image.src} alt={image.alt} className="carousel-image" />
+          </div>
+        ))}
+      </Slider>
+    </div>
         <div className={styles.productDetails}>
           <h1 className={styles.productTitle}>EAP110 TP-Link Wireless-N Ceiling Mount Access Point </h1>
           <p className={styles.productDescription}>

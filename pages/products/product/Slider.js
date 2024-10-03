@@ -17,6 +17,7 @@ const Carousel = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    showThumbs: false,
   };
 
   return (
