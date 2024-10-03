@@ -17,7 +17,7 @@ body {
   .carousel {
     width: 500px;
     max-width: 1200px;
-    margin: 50px 30px;
+    margin: 10px 10px;
   }
   
   .carousel-image {
@@ -36,6 +36,6 @@ body {
     .carousel {
       width: 200px;
       height: 350px;
-      margin: 30px;
+      margin: 60px;
     }
   }
