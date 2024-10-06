@@ -1,9 +1,39 @@
-import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import styles from '../styles/Contact.module.scss';
+import { useState } from 'react';
 
 const Contact = () => {
+
+  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [status, setStatus] = useState('');
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('https://formkeep.com/f/f0b0af21656d', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams(formData).toString(),
+      });
+      if (response.ok) {
+        setStatus('Thank you for your message!');
+      } else {
+        setStatus('Failed to send message.');
+      }
+    } catch (error) {
+      setStatus('Failed to send message.');
+    }
+  };
+
+
   return (
     <div className={`${styles.bggray} ${styles.fadeIn}`}>
       <Navbar />
@@ -16,28 +46,29 @@ const Contact = () => {
           </a>
           .
         </p>
-        <form className={styles.form}>
+        <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.formGroup}>
             <label htmlFor="name" className={styles.label}>
               Name
             </label>
-            <input type="text" id="name" className={styles.input} />
+            <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className={styles.input} required/>
           </div>
           <div className={styles.formGroup}>
             <label htmlFor="email" className={styles.label}>
               Email
             </label>
-            <input type="email" id="email" className={styles.input} />
+            <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className={styles.input} required/>
           </div>
           <div className={styles.formGroup}>
             <label htmlFor="message" className={styles.label}>
               Message
             </label>
-            <textarea id="message" className={styles.textarea}></textarea>
+            <textarea id="message" name="message" className={styles.textarea} value={formData.message} onChange={handleChange} required></textarea>
           </div>
           <button type="submit" className={`${styles.button} ${styles.buttonPrimary}`}>
             Submit
           </button>
+          <p>{status}</p>
         </form>
       </div>
       <Footer />
