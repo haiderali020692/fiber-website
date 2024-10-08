@@ -14,13 +14,13 @@ body {
     text-decoration: none;
   }
 
-  .carousel {
+  .carousel1 {
     width: 500px;
     max-width: 1200px;
     margin: 10px 10px;
   }
   
-  .carousel-image {
+  .carousel-image1 {
     width: 500px;
     height: 500px;
     object-fit: cover;
@@ -28,12 +28,12 @@ body {
 
 
   @media (max-width: 600px) {
-    .carousel-image {
+    .carousel-image1 {
       width: 200px;
       object-fit: scale-down;
 
     }
-    .carousel {
+    .carousel1 {
       width: 200px;
       height: 350px;
     }

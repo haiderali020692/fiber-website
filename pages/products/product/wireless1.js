@@ -86,11 +86,11 @@ const Product = () => {
   return (
     <div className={styles.productPage}>
       <div className={styles.productCard}>
-      <div className="carousel">
+      <div className="carousel1">
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image.src} alt={image.alt} className="carousel-image" />
+            <img src={image.src} alt={image.alt} className="carousel-image1" />
           </div>
         ))}
       </Slider>
