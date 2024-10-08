@@ -49,6 +49,7 @@ import Link from 'next/link'
 const Product = () => {
   return (
     <div className={styles.productPage}>
+      <Link href={`/Networking`}><button className={styles.buyButton}>Back to Networking</button></Link>
       <div className={styles.productCard}>
         <img
           className={styles.productImage}

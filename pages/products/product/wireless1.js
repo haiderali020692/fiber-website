@@ -53,6 +53,7 @@ export async function getServerSideProps({ params }) {
 import React from 'react';
 import styles from '../../../styles/products.module.scss';
 import Slider from "react-slick";
+import Link from 'next/link'
 
 
 
@@ -101,7 +102,8 @@ const Product = () => {
             This product is top-notch! It has everything you need to improve your life.
           </p>
           <span className={styles.productPrice}>$99.99</span>
-          <button className={styles.buyButton}>Call Us or Email!</button>
+          <Link href={`/Contact`}><button className={styles.buyButton}>Call Us or Email!</button></Link>
+          <Link href={`/products/network1`}><button className={styles.buyButton}>Back to Access Points</button></Link>
         </div>
       </div>
     </div>
