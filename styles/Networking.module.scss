@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-$bg-gray: #4F4036;
 
 .bg-gray {
-  background-color: $bg-gray;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,87,113,1) 74%, rgba(0,212,255,1) 100%); 
 }
 
 .min-h-screen {
@@ -34,13 +34,14 @@ $bg-gray: #4F4036;
   font-size: medium;
   color: white;
   justify-content: center;
-  background-color: brown;
+  background-color: rgba(0,212,255,1);
   border-radius: 8px;
   padding: 2rem;
 }
 
 .post {
-  background-color: $bg-gray;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,87,113,1) 74%, rgba(0,212,255,1) 100%); 
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 20px;

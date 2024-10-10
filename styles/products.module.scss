@@ -1,10 +1,10 @@
 // pages/product.module.scss
 
-$product-background-color: #E2725B;
-$product-card-background: #f7f7f7;
+$product-background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,87,113,1) 74%, rgba(0,212,255,1) 100%);
+$product-card-background:  white; 
 $primary-color: #2c3e50;
 $text-color: #666666;
-$button-color: #e74c3c;
+$button-color: rgba(0,212,255,1);
 
 
 
@@ -13,7 +13,8 @@ $button-color: #e74c3c;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: $product-background-color;
+  background: black;
+  background: $product-background-color;
   padding: 2rem;
   border-radius: 8px;
   gap: 10px;
@@ -49,6 +50,7 @@ $button-color: #e74c3c;
     height: auto;
     border-radius: 8px;
     margin-bottom: 1.5rem;
+    background: black;
 
     @media (max-width: 600px) {
       margin-bottom: 50px;

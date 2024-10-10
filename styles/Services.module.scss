@@ -2,7 +2,7 @@
 
 .servicesPage {
   text-align: center;
-  background-color: #4F4036;
+  background-color: black;
   color: white;
   border-radius: 10px;
 
@@ -23,7 +23,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #e2aa5b;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,87,113,1) 74%, rgba(0,212,255,1) 100%);
     border-radius: 10px;
     box-sizing: border-box;
     width: 80%;

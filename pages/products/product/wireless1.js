@@ -63,6 +63,29 @@ import Link from 'next/link'
 const Product = () => {
 
 
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "red" }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "green" }}
+        onClick={onClick}
+      />
+    );
+  }
+
+
     const images = [
         { src: "../../../images/ap1.png", alt: "Product 1" },
         { src: "../../../images/sec.jpg", alt: "Product 2" },
@@ -81,6 +104,8 @@ const Product = () => {
           showThumbs: false,
           swipeToSlide: true,
           adaptiveHeight: true,
+          nextArrow: <SampleNextArrow />,
+          prevArrow: <SamplePrevArrow />,
         };
 
 
