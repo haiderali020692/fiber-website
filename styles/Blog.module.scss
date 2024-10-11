@@ -43,10 +43,11 @@
   margin-bottom: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%; /* Make the post full width on mobile */
-  color: white;
+  color: black;
   padding: 1rem;
   align-items: center;
   box-sizing: border-box;
+  border: 6px solid #ccc;
 }
 
 .img {
@@ -56,10 +57,19 @@
   justify-content: center;
 }
 
+.img1 {
+  width: 99.5%;
+  border-radius: 8px;
+  align-self: center;
+  justify-content: center;
+  border: 6px solid #ccc;
+  
+}
+
 .title {
   font-size: 1.25rem; /* Reduce title size on mobile */
   font-weight: 700;
-  color: white;
+  color: black;
 }
 
 /* Media Queries for Mobile Phones */

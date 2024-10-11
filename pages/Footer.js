@@ -1,9 +1,19 @@
 // components/Footer.js
 import styles from '../styles/Footer.module.scss';
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
 const Footer = () => {
   return (
+    <motion.div
+    initial={{ y: 1000 }}
+    animate={{ y: 0 }}
+    transition={{
+      ease: "backInOut",
+      duration: 2,
+      x: { duration: 1 }
+    }}
+    >
     <footer className={styles['site-footer']}>
       <div className={styles.container}>
         <div className={styles['footer-columns']}>
@@ -36,6 +46,7 @@ const Footer = () => {
         <p className={styles['footer-bottom-text']}>© 2023 Your Website. All rights reserved.</p>
       </div>
     </footer>
+   </motion.div>
   );
 };
 

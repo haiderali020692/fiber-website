@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import styles from '../styles/Contact.module.scss';
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
 
@@ -47,27 +48,67 @@ const Contact = () => {
           .
         </p>
         <form onSubmit={handleSubmit} className={styles.form}>
+        <motion.div
+         initial={{ scale: 0 }}
+         animate={{ scale: 1 }}
+         transition={{
+           type: "tween",
+           duration: 2,  // Duration of the animation in seconds
+           ease: "easeOut"  // Easing function for smooth animation
+         }}
+        >
           <div className={styles.formGroup}>
             <label htmlFor="name" className={styles.label}>
               Name
             </label>
             <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} className={styles.input} required/>
           </div>
+          </motion.div>
+          <motion.div
+         initial={{ scale: 0 }}
+         animate={{ scale: 1 }}
+         transition={{
+           type: "tween",
+           duration: 2,  // Duration of the animation in seconds
+           ease: "easeOut"  // Easing function for smooth animation
+         }}
+        >
           <div className={styles.formGroup}>
             <label htmlFor="email" className={styles.label}>
               Email
             </label>
             <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} className={styles.input} required/>
           </div>
+          </motion.div>
+          <motion.div
+         initial={{ scale: 0 }}
+         animate={{ scale: 1 }}
+         transition={{
+           type: "tween",
+           duration: 2,  // Duration of the animation in seconds
+           ease: "easeOut"  // Easing function for smooth animation
+         }}
+        >
           <div className={styles.formGroup}>
             <label htmlFor="message" className={styles.label}>
               Message
             </label>
             <textarea id="message" name="message" className={styles.textarea} value={formData.message} onChange={handleChange} required></textarea>
           </div>
+          </motion.div>
+          <motion.div
+         initial={{ scale: 0 }}
+         animate={{ scale: 1 }}
+         transition={{
+           type: "tween",
+           duration: 2,  // Duration of the animation in seconds
+           ease: "easeOut"  // Easing function for smooth animation
+         }}
+        >
           <button type="submit" className={`${styles.button} ${styles.buttonPrimary}`}>
             Submit
           </button>
+          </motion.div>
           <p>{status}</p>
         </form>
       </div>
