@@ -22,7 +22,7 @@ const Services = () => {
          }}
         >  
       <h1 className={styles.title1}>Networking Products</h1>
-      <p className={styles.mb4}>We are committed to install high quality
+      <p className={styles.mb4}>We are committed to installing high quality
 ethernet cables and access points to create
 secure and fast internet throughout the house
 or office.</p>
