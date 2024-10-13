@@ -54,6 +54,7 @@ import React from 'react';
 import styles from '../../../styles/products.module.scss';
 import Slider from "react-slick";
 import Link from 'next/link'
+import { motion } from 'framer-motion';
 
 
 
@@ -111,6 +112,15 @@ const Product = () => {
 
   return (
     <div className={styles.productPage}>
+      <motion.div
+      initial={{ scale: 0 }}
+      animate={{ rotate: 360, scale: 1 }}
+      transition={{
+        type: "spring",
+        stiffness: 260,
+        damping: 20
+      }}
+      >
       <div className={styles.productCard}>
       <div className="carousel1">
       <Slider {...settings}>
@@ -131,6 +141,7 @@ const Product = () => {
           <Link href={`/products/network1`}><button className={styles.buyButton}>Back to Access Points</button></Link>
         </div>
       </div>
+      </motion.div>
     </div>
   );
 };

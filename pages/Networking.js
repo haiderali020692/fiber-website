@@ -4,13 +4,23 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Link from 'next/link';
 import styles from '../styles/Networking.module.scss'; // Import SCSS styles
+import { motion } from 'framer-motion';
 
 const Services = () => {
   const { networking } = data.items;
 
   return (
     <div className={styles.servicesPage}>
-      <Navbar />  
+      <Navbar />
+      <motion.div
+         initial={{ scale: 0 }}
+         animate={{ scale: 1 }}
+         transition={{
+           type: "tween",
+           duration: 2,  // Duration of the animation in seconds
+           ease: "easeOut"  // Easing function for smooth animation
+         }}
+        >  
       <h1 className={styles.title1}>Networking Products</h1>
       <p className={styles.mb4}>We are committed to install high quality
 ethernet cables and access points to create
@@ -31,6 +41,7 @@ or office.</p>
           </ol>
         </div>
       </div>
+      </motion.div>
       <Footer />
     </div>
   );

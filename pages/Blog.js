@@ -1,6 +1,7 @@
 import Navbar from './Navbar';
 import styles from '../styles/Blog.module.scss';
 import Footer from './Footer';
+import { motion } from 'framer-motion';
 
 
 const Blog = () => {
@@ -29,6 +30,15 @@ const Blog = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       <Navbar />
+      <motion.div
+         initial={{ scale: 0 }}
+         animate={{ scale: 1 }}
+         transition={{
+           type: "tween",
+           duration: 2,  // Duration of the animation in seconds
+           ease: "easeOut"  // Easing function for smooth animation
+         }}
+        >  
       <div className="mx-auto max-w-4xl p-8">
         <h1 className="text-3xl font-bold mb-4">Blog</h1>
         {posts.map(post => (
@@ -41,6 +51,7 @@ const Blog = () => {
           </div>
         ))}
       </div>
+      </motion.div>
       <Footer />
     </div>
   );

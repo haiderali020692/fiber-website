@@ -11,9 +11,9 @@
       },
       {
         "id": 2,
-        "slug": "networking2",
-        "title": "Networking2",
-        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
+        "slug": "hardsolutions",
+        "title": "Hard-Wired Internet Solutions",
+        "text": "We use CAT 7 ethernet cables to provide fast internet to your devices such as TVs and computers. CAT 7 ethernet cables are future proof as they provide up to 10,000 Mb/s speed compare toother CAT 5 or 6 cables that are up to 1000 Mb/s",
         "imageUrl": "/images/sec.jpg",
         "route": "network2"
       },
