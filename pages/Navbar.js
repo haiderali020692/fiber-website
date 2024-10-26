@@ -1,7 +1,7 @@
 // components/Navbar.js
 import Link from 'next/link'
 import styles from '../styles/Home.module.scss';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
@@ -41,6 +41,7 @@ const Navbar = () => {
             <button>Blog</button>
           </Link>
         </li>
+        <img src="optical-fiber.png" alt="Icon description" width={34} height={34} backgroundColor={"white"}/>
       </ul>
     </nav>
     </motion.div>
