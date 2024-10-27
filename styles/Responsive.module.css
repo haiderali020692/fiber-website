@@ -1,9 +1,10 @@
 /* Ensure the container is centered and has padding for spacing */
 .container {
-  width: 100%;
+  width: 97%;
   overflow: hidden;
   border-radius: 10px;
   border: 6px solid #ccc;
+  margin-left: 10px;
 }
 
 /* Flexbox centering for the swiper */
@@ -16,7 +17,8 @@
   border-radius: 10px;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,87,113,1) 74%, rgba(0,212,255,1) 100%);
-  width: 1100px;
+  width: 1000px;
+  object-fit: cover;
 }
 
 .img {
@@ -32,12 +34,12 @@
   justify-content: center;
   padding: 10px;
   position: relative; /* Position relative to use absolute positioning for the background */
-  height: 100vh; /* Full height of the viewport */
   height: 800px; /* Adjust height as needed */
-  width: 1000px; /* Adjust max-width as needed */
+  width: 900px; /* Adjust max-width as needed */
   overflow: hidden;
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 50px;
+  object-fit: cover;
 }
 
 /* Full background image for each swiper item */

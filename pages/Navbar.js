@@ -41,7 +41,7 @@ const Navbar = () => {
             <button>Blog</button>
           </Link>
         </li>
-        <img src="optical-fiber.png" alt="Icon description" width={34} height={34} backgroundColor={"white"}/>
+        <img src="optical-fiber.png" alt="Icon description" width={34} height={34}/>
       </ul>
     </nav>
     </motion.div>
