@@ -27,13 +27,13 @@ const Services = () => {
         <div>
       <ol className={styles.serviceCategory}>
         {responsive.map((item) => (
-          <li key={item.id}>
+          <div key={item.id}>
             <img src={item.imageUrl} alt="slides" width="1000" height="600"/>
             <Link href={`../${item.slug}`}>
             <h2>{item.title}</h2>
             </Link>
             <p>{item.text}</p>
-          </li>
+          </div>
         ))}
       </ol>
         </div>

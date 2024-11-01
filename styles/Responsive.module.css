@@ -74,10 +74,12 @@
 }
 
 /* Add media queries for responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 786px) {
   .container {
-    width: 285px;
+    width: 240px;
     background-color: white;
+
+
   }
 
   .mySwiper {
@@ -86,7 +88,7 @@
   }
 
   .swipItem {
-    width: 200px;
+    width: 180px;
     justify-content: center;
     align-items: center;
     margin-left: 40px;

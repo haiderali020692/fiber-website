@@ -55,6 +55,10 @@
   border-radius: 8px;
   align-self: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    object-fit: scale-down;
+  }
 }
 
 .img1 {
@@ -63,6 +67,10 @@
   align-self: center;
   justify-content: center;
   border: 6px solid #ccc;
+
+  @media (max-width: 768px) {
+    object-fit: scale-down;
+  }
   
 }
 
