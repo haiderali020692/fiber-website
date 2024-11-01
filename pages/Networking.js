@@ -27,7 +27,7 @@ ethernet cables and access points to create
 secure and fast internet throughout the house
 or office.</p>
       <div className={styles.servicesList}>
-        <div>
+        <div className='container'> 
           <ol className={styles.serviceCategory}>
             {networking.map((item) => (
               <li key={item.id} className={styles.post}>
