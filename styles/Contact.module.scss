@@ -5,6 +5,10 @@
   
   .formGroup {
     margin-bottom: 1.5rem;
+
+    @media (max-width: 786px){
+      margin-right: 30px;
+    }
   }
   
   .label {

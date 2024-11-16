@@ -24,8 +24,6 @@
 .img {
   justify-content: center;
   border-radius: 10px;
-  color: white;
-  background-color: white;
 }
 
 /* Flexbox centering for each swiper item */
@@ -79,8 +77,8 @@
 @media (max-width: 786px) {
   .container {
     width: 240px;
-    background-color: white;
-
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,87,113,1) 74%, rgba(0,212,255,1) 100%);
 
   }
 
@@ -116,7 +114,6 @@
 
   .container {
     width: 575px;
-    background-color: white;
     align-items: center;
   }
 
