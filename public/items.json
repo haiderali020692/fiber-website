@@ -5,19 +5,19 @@
               "id": 1,
               "title": "Swiper Carousel Example",
               "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-              "imageUrl": "/images/optical-fiber.png"
+              "imageUrl": "/images/optical-fiber-2.png"
             },
             {
               "id": 2,
               "title": "Swiper Carousel Example 2",
               "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-              "imageUrl": "/images/wall-bracket-2.png"
+              "imageUrl": "/images/bracket.png"
             },
             {
               "id": 3,
               "title": "Swiper Carousel Example 3",
               "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos mollitia sed quod consectetur at quam dolore praesentium neque eos assumenda iusto nam laborum laboriosam odio blanditiis possimus accusantium recusandae porro exercitationem itaque",
-              "imageUrl": "/images/wifi-router-2.png"
+              "imageUrl": "/images/wifi.png"
             }
           ]
         }
