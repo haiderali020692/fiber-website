@@ -78,6 +78,12 @@
     object-fit: scale-down;
   }
 
+  @media (min-width: 1200px) {
+    object-fit: cover; /* Increase max width for larger screens */ 
+    justify-items: center;
+    align-self: center;
+  }
+
   
   
 }
