@@ -23,7 +23,7 @@ const Post = () => {
       <div className="mx-auto max-w-4xl p-8">
         <h1 className="text-3xl font-bold mb-4">Blog</h1>
         {posts.map(post => (
-            <div key={post.id} className="bg-gray-100">
+            <div key={post.id} className="bggray">
             <img src={post.image} alt={post.title} className={styles.img1} height={600} />
             <h2 className={styles.title}>{post.title}</h2>
             <p className={styles.author}>{post.date} | By {post.author}</p>
